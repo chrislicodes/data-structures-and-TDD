@@ -38,4 +38,17 @@ describe("LinkedList", () => {
     expect(linkedList.tail.value).toBe(1);
     expect(linkedList.head.next.value).toBe(1);
   });
+
+  it("should transform the linked list to an array", () => {
+    const linkedList = new LinkedList();
+
+    // [2, 1, 3]
+    linkedList.append(1);
+    linkedList.prepend(2);
+    linkedList.append(3);
+
+    const arr = linkedList.toArray();
+
+    expect(arr).toEqual([2, 1, 3]);
+  });
 });

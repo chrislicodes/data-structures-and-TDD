@@ -34,4 +34,17 @@ export default class LinkedList {
 
     return this;
   }
+
+  toArray() {
+    const nodeValues = [];
+
+    let currentNode = this.head;
+
+    while (currentNode) {
+      nodeValues.push(currentNode.value);
+      currentNode = currentNode.next;
+    }
+
+    return nodeValues;
+  }
 }
