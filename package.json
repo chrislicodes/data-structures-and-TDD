@@ -1,0 +1,28 @@
+{
+  "name": "data-structures-and-tdd",
+  "version": "1.0.0",
+  "description": "Data Structures JavaScript Implementations",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrislicodes/data-structures-and-TDD.git"
+  },
+  "keywords": [
+    "data-structures"
+  ],
+  "author": "Christoph Lindstädt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrislicodes/data-structures-and-TDD/issues"
+  },
+  "homepage": "https://github.com/chrislicodes/data-structures-and-TDD#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.2"
+  }
+}
