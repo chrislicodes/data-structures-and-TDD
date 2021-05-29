@@ -4,7 +4,7 @@
   "description": "Data Structures JavaScript Implementations",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
